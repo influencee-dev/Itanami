@@ -1,0 +1,7 @@
+{
+  "name": "Itanami Fusion Restaurant",
+  "description": "Sito web ufficiale di Itanami, ristorante di Sushi e Poke a Foggia. Ordina i tuoi piatti preferiti direttamente su WhatsApp.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
