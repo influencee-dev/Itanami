@@ -31,7 +31,7 @@ const Navbar: React.FC = () => {
               to="/menu" 
               className={`hidden lg:block text-[11px] font-bold tracking-[0.2em] uppercase transition-colors ${location.pathname === '/menu' ? 'text-[#e61e2a]' : 'text-black hover:text-[#e61e2a]'}`}
             >
-              Menu
+              Ordina Ora
             </Link>
           </div>
 
@@ -77,7 +77,7 @@ const Navbar: React.FC = () => {
               onClick={() => setIsOpen(false)}
               className={`block text-sm font-bold tracking-[0.2em] uppercase transition-all ${location.pathname === '/menu' ? 'text-[#e61e2a]' : 'text-black'}`}
             >
-              Menu
+              Ordina Ora
             </Link>
             <Link
               to="/contacts"

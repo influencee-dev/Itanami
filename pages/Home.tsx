@@ -107,7 +107,7 @@ const Home: React.FC = () => {
           </div>
 
           <div className="text-center mt-20">
-            <Link to="/menu" className="text-xs font-bold tracking-[0.3em] uppercase border-b border-gray-700 pb-1 hover:border-white transition-all">Sfoglia il Menu Completo</Link>
+            <Link to="/menu" className="text-xs font-bold tracking-[0.3em] uppercase border-b border-gray-700 pb-1 hover:border-white transition-all">Sfoglia il Menu e Ordina Ora</Link>
           </div>
         </div>
       </section>
