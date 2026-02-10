@@ -71,7 +71,7 @@ const Home: React.FC = () => {
             { name: 'Sushi', img: 'https://images.unsplash.com/photo-1583623025817-d180a2221d0a?auto=format&fit=crop&q=80&w=600' },
             { name: 'Pokè', img: 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&q=80&w=600' },
             { name: 'Uramaki', img: 'https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&q=80&w=600' },
-            { name: 'Tacos', img: 'https://images.unsplash.com/photo-1599974597259-471395e82f18?auto=format&fit=crop&q=80&w=600' }
+            { name: 'Tacos', img: '/t.png' }
           ].map((cat) => (
             <div key={cat.name} className="group relative aspect-[4/5] overflow-hidden cursor-pointer">
               <img 
