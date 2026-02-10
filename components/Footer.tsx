@@ -13,12 +13,12 @@ const Footer: React.FC = () => {
     <footer className="bg-[#0b0e14] pt-32 pb-16 relative border-t border-white/5">
       <div className="max-w-7xl mx-auto px-6 text-center">
         
-        {/* Logo in Negativo */}
+        {/* Logo semplice (non invertito) */}
         <div className="mb-12">
            <img 
-            src="/logo.webp" 
+            src={LOGO_URL} 
             alt="Logo Itanami" 
-            className="h-20 w-auto mx-auto mb-8 invert brightness-0 hover:opacity-80 transition-opacity" 
+            className="h-32 w-auto mx-auto mb-8 hover:opacity-90 transition-opacity" 
            />
         </div>
 
