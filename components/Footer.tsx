@@ -16,7 +16,7 @@ const Footer: React.FC = () => {
         {/* Logo in Negativo */}
         <div className="mb-12">
            <img 
-            src={"public/logo.webp"} 
+            src="/logo.webp" 
             alt="Logo Itanami" 
             className="h-20 w-auto mx-auto mb-8 invert brightness-0 hover:opacity-80 transition-opacity" 
            />
