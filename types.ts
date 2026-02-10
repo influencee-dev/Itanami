@@ -7,15 +7,22 @@ export interface MenuItem {
   category: MenuCategory;
   image?: string;
   popular?: boolean;
+  allergens?: string[];
 }
 
 export enum MenuCategory {
-  ANTIPASTI = 'Antipasti',
-  POKE = 'Poke',
-  URAMAKI = 'Uramaki',
-  NIGIRI = 'Nigiri & Hosomaki',
-  PIATTI_CALDI = 'Piatti Caldi',
-  BEVANDE = 'Bevande'
+  POKE = 'Pokè',
+  EXTRA = 'Extra',
+  ASPORTO = 'Asporto',
+  DOLCI = 'Dolci',
+  BEVANDE = 'Bevande',
+  BIRRA = 'Birra',
+  VINI_ROSATI = 'Vini Rosati',
+  VINI_BIANCHI = 'Vini Bianchi',
+  VINI_ROSSI = 'Vini Rossi',
+  BOLLICINE = 'Bollicine',
+  AMARI = 'Amari',
+  COCKTAILS = 'Cocktails'
 }
 
 export interface OrderItem extends MenuItem {

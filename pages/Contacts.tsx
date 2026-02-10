@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { MapPin, Phone, MessageSquare, Clock, Instagram } from 'lucide-react';
-import { WHATSAPP_LINK, PHONE_LINK, PHONE_DISPLAY, INSTAGRAM_LINK } from '../constants';
+import { WHATSAPP_LINK, PHONE_LINK, PHONE_DISPLAY, INSTAGRAM_LINK, ADDRESS_DISPLAY } from '../constants';
 
 const Contacts: React.FC = () => {
   return (
@@ -55,7 +55,7 @@ const Contacts: React.FC = () => {
             <div className="bg-zinc-900/30 p-10 border border-white/5 text-center">
                 <MapPin className="mx-auto mb-6 text-gray-500" size={24} />
                 <h5 className="font-bold tracking-widest text-[10px] uppercase text-gray-400 mb-4">Indirizzo</h5>
-                <p className="text-lg italic font-serif">Via Dante Alighieri 45<br/>71121 Foggia (FG)</p>
+                <p className="text-lg italic font-serif">{ADDRESS_DISPLAY}</p>
             </div>
 
             {/* Hours */}
@@ -63,9 +63,9 @@ const Contacts: React.FC = () => {
                 <Clock className="mx-auto mb-6 text-gray-500" size={24} />
                 <h5 className="font-bold tracking-widest text-[10px] uppercase text-gray-400 mb-4">Orari di Apertura</h5>
                 <div className="space-y-2 text-sm">
-                    <p><span className="text-gray-500 uppercase text-[9px] tracking-tighter mr-2">LUN - GIO:</span> 12:00-15:00 / 19:00-23:30</p>
-                    <p><span className="text-gray-500 uppercase text-[9px] tracking-tighter mr-2">VEN - SAB:</span> 12:00-15:00 / 19:00-00:00</p>
-                    <p><span className="text-gray-500 uppercase text-[9px] tracking-tighter mr-2">DOMENICA:</span> 19:00-23:30</p>
+                    <p><span className="text-gray-500 uppercase text-[9px] tracking-tighter mr-2">PRANZO:</span> 12:00 - 15:00</p>
+                    <p><span className="text-gray-500 uppercase text-[9px] tracking-tighter mr-2">CENA:</span> 19:00 - 00:00</p>
+                    <p><span className="text-gray-500 uppercase text-[9px] tracking-tighter mr-2">TUTTI I GIORNI</span></p>
                 </div>
             </div>
 

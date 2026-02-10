@@ -2,7 +2,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Instagram, ArrowUp } from 'lucide-react';
-import { LOGO_URL, WHATSAPP_LINK, PHONE_DISPLAY, INSTAGRAM_LINK } from '../constants';
+import { LOGO_URL, WHATSAPP_LINK, PHONE_DISPLAY, INSTAGRAM_LINK, ADDRESS_DISPLAY } from '../constants';
 
 const Footer: React.FC = () => {
   const scrollToTop = () => {
@@ -22,8 +22,8 @@ const Footer: React.FC = () => {
            />
         </div>
 
-        <p className="text-[10px] font-bold tracking-[0.4em] uppercase text-gray-500 mb-4">LUNEDÌ - SABATO : SERVIZIO FINO ALLE 24:00</p>
-        <p className="text-xs font-bold tracking-[0.2em] uppercase text-white mb-2">VIA DANTE ALIGHIERI 45, FOGGIA (FG), 71121</p>
+        <p className="text-[10px] font-bold tracking-[0.4em] uppercase text-gray-500 mb-4">LUNEDÌ - SABATO : APERTI FINO A TARDI</p>
+        <p className="text-xs font-bold tracking-[0.2em] uppercase text-white mb-2">{ADDRESS_DISPLAY.toUpperCase()}</p>
         <p className="text-xs font-bold tracking-[0.2em] uppercase text-gray-400 mb-10">{PHONE_DISPLAY}</p>
         
         <div className="mb-12">
